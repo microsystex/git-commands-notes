@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../daily-development-routine/">
+        <link rel="prev" href="../removing-old-commits/">
       
       
       
@@ -217,6 +217,26 @@
   
   
     <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../git-branch-planning/" class="md-nav__link">
         
   
@@ -242,6 +262,26 @@
   
   <span class="md-ellipsis">
     Daily Development Routine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../removing-old-commits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Removing Old Commits
   </span>
   
 
@@ -357,6 +397,42 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#git-reset" class="md-nav__link">
+    <span class="md-ellipsis">
+      git reset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-commit" class="md-nav__link">
+    <span class="md-ellipsis">
+      git commit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-rebase" class="md-nav__link">
+    <span class="md-ellipsis">
+      git rebase
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-add" class="md-nav__link">
+    <span class="md-ellipsis">
+      git add
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -451,6 +527,42 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#git-reset" class="md-nav__link">
+    <span class="md-ellipsis">
+      git reset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-commit" class="md-nav__link">
+    <span class="md-ellipsis">
+      git commit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-rebase" class="md-nav__link">
+    <span class="md-ellipsis">
+      git rebase
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-add" class="md-nav__link">
+    <span class="md-ellipsis">
+      git add
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -526,6 +638,38 @@
 <li>Example:</li>
 </ul>
 <pre><code class="language-bash">git push origin feature-xyz
+</code></pre>
+<h3 id="git-reset"><code>git reset</code></h3>
+<p><strong><code>git reset --soft &lt;root_commit_hash&gt;</code></strong>: Reset the current branch to the root commit, keeping changes staged</p>
+<ul>
+<li>This command resets the current branch to the specified root commit, keeping changes staged.</li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-bash">git reset --soft root-commit-hash
+</code></pre>
+<h3 id="git-commit"><code>git commit</code></h3>
+<p><strong><code>git commit --amend -m "將歷史資料移除，所減至單一提交"</code></strong>: Amend the current commit with a new message</p>
+<ul>
+<li>This command amends the current commit with a new message.</li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-bash">git commit --amend -m &quot;將歷史資料移除，所減至單一提交&quot;
+</code></pre>
+<h3 id="git-rebase"><code>git rebase</code></h3>
+<p><strong><code>git rebase &lt;specific_commit_hash&gt; master --onto temp-branch</code></strong>: Rebase the master branch onto a temporary branch starting from a specific commit</p>
+<ul>
+<li>This command rebases the master branch onto a temporary branch starting from a specific commit.</li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-bash">git rebase specific-commit-hash master --onto temp-branch
+</code></pre>
+<h3 id="git-add"><code>git add</code></h3>
+<p><strong><code>git add .</code></strong>: Stage changes for commit</p>
+<ul>
+<li>This command stages all changes in the current directory for the next commit.</li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-bash">git add .
 </code></pre>
 
 
