@@ -1,4 +1,7 @@
-site_name: My Docs
+site_name: Git Commands Notes
+site_description: Documentation for Git commands and branching strategies
+site_author: Dyson Liu
+repo_url: https://microsystex.github.io/git-commands-notes/
 
 theme:
   name: material
