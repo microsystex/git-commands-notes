@@ -14,7 +14,7 @@
       
       
       
-        <link rel="next" href="../related-commands-summary/">
+        <link rel="next" href="../daily-development-routine/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -355,6 +355,26 @@
   
   
     <li class="md-nav__item">
+      <a href="../daily-development-routine/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daily Development Routine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../related-commands-summary/" class="md-nav__link">
         
   
@@ -527,46 +547,7 @@ git merge feature-xxx
 git push origin dev
 </code></pre>
 <h2 id="daily-development-routine">Daily Development Routine</h2>
-<p>To ensure smooth development and integration, each engineer should follow these daily routines:</p>
-<ol>
-<li><strong>Start of the Day</strong>:</li>
-<li>Pull the latest changes from the <code>dev</code> or <code>dev-2</code> branch.
-   <code>sh
-   git switch dev
-   git pull origin dev</code></li>
-<li>
-<p>Merge your feature or bugfix branch with the latest <code>dev</code> or <code>dev-2</code> branch.
-   <code>sh
-   git switch feature-xxx
-   git merge dev</code></p>
-</li>
-<li>
-<p><strong>During Development</strong>:</p>
-</li>
-<li>Commit changes frequently with clear and concise commit messages.
-   <code>sh
-   git add .
-   git commit -m "Your clear and concise commit message"</code></li>
-<li>
-<p>Push your changes to the remote repository regularly.
-   <code>sh
-   git push origin feature-xxx</code></p>
-</li>
-<li>
-<p><strong>After Completing a Bugfix or Feature</strong>:</p>
-</li>
-<li>Ensure your branch is up-to-date with the latest <code>dev</code> or <code>dev-2</code> branch.
-   <code>sh
-   git switch dev
-   git pull origin dev
-   git switch feature-xxx
-   git merge dev</code></li>
-<li>Create a pull request for code review if your feature or bugfix is complete.</li>
-<li>After the pull request is merged, delete the feature or bugfix branch.
-   <code>sh
-   git branch -d feature-xxx
-   git push origin --delete feature-xxx</code></li>
-</ol>
+<p>For detailed daily development routines, please refer to the <a href="../daily-development-routine/">Daily Development Routine</a> page.</p>
 <h2 id="related-commands-summary">Related Commands Summary</h2>
 <p>For detailed explanations of related commands, please refer to the <a href="../related-commands-summary/">Related Commands Summary</a> page.</p>
 <ul>
@@ -574,10 +555,9 @@ git push origin dev
 <li><a href="../related-commands-summary/#git-switch"><code>git switch &lt;branch-name&gt;</code>: Switch to an existing branch</a></li>
 <li><a href="../related-commands-summary/#git-pull"><code>git pull origin &lt;branch-name&gt;</code>: Pull the latest changes from a remote branch</a></li>
 <li><a href="../related-commands-summary/#git-merge"><code>git merge &lt;source-branch&gt;</code>: Merge changes from one branch to another</a></li>
+<li><a href="../related-commands-summary/#git-push"><code>git push origin &lt;branch-name&gt;</code>: Push changes to a remote branch</a></li>
 <li><a href="../related-commands-summary/#git-branch"><code>git branch -d &lt;branch-name&gt;</code>: Delete a local branch</a></li>
 <li><a href="../related-commands-summary/#git-push"><code>git push origin --delete &lt;branch-name&gt;</code>: Delete a remote branch</a></li>
-<li><a href="../related-commands-summary/#git-push"><code>git push origin &lt;branch-name&gt;</code>: Push changes to a remote branch</a></li>
-<li><a href="../related-commands-summary/#gh-pr-create"><code>gh pr create --base &lt;base-branch&gt; --head &lt;head-branch&gt; --title "Pull Request Title" --body "Pull Request Description"</code>: Create a pull request (using GitHub CLI)</a></li>
 </ul>
 
 
