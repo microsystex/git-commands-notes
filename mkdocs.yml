@@ -8,4 +8,5 @@ theme:
 
 nav:
   - Git Branch Planning: git-branch-planning.md
+  - Daily Development Routine: daily-development-routine.md
   - Related Commands Summary: related-commands-summary.md

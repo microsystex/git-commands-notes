@@ -1,8 +1,11 @@
 # Git Commands Notes
 
-This document provides notes on various Git commands, organized by scenarios encountered during past project development. It includes a subset of Git commands relevant to these scenarios, along with instructions for setting up and deploying documentation using MkDocs.
+Welcome to the Git Commands Notes documentation. This site provides comprehensive information on Git commands and branching strategies to help you manage your projects effectively.
 
-## Table of Contents
+## Contents
 
-- [Git Branch Planning](git-branch-planning.md)
-- [Related Commands Summary](related-commands-summary.md)
+- [Git Branch Planning](git-branch-planning.md): Learn about different branching strategies and how to manage branches in a multi-phase project.
+- [Daily Development Routine](daily-development-routine.md): Follow the daily routines to ensure smooth development and integration.
+- [Related Commands Summary](related-commands-summary.md): Detailed explanations of various Git commands used in this documentation.
+
+Feel free to explore each section to get a better understanding of Git and how to use it efficiently in your projects.
