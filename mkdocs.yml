@@ -1,4 +1,8 @@
 site_name: My Docs
 
+theme:
+  name: material
+
 nav:
   - Git Branch Planning: git-branch-planning.md
+  - Related Commands Summary: related-commands-summary.md
