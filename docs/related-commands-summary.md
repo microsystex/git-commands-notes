@@ -107,3 +107,14 @@ git commit --amend -m "將歷史資料移除，所減至單一提交"
 ```bash
 git rebase specific-commit-hash master --onto temp-branch
 ```
+
+### `git add`
+
+**`git add .`**: Stage changes for commit
+
+- This command stages all changes in the current directory for the next commit.
+- Example:
+
+```bash
+git add .
+```
