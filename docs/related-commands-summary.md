@@ -74,3 +74,36 @@ git push origin --delete feature-xyz
 ```bash
 git push origin feature-xyz
 ```
+
+### `git reset`
+
+**`git reset --soft <root_commit_hash>`**: Reset the current branch to the root commit, keeping changes staged
+
+- This command resets the current branch to the specified root commit, keeping changes staged.
+- Example:
+
+```bash
+git reset --soft root-commit-hash
+```
+
+### `git commit`
+
+**`git commit --amend -m "將歷史資料移除，所減至單一提交"`**: Amend the current commit with a new message
+
+- This command amends the current commit with a new message.
+- Example:
+
+```bash
+git commit --amend -m "將歷史資料移除，所減至單一提交"
+```
+
+### `git rebase`
+
+**`git rebase <specific_commit_hash> master --onto temp-branch`**: Rebase the master branch onto a temporary branch starting from a specific commit
+
+- This command rebases the master branch onto a temporary branch starting from a specific commit.
+- Example:
+
+```bash
+git rebase specific-commit-hash master --onto temp-branch
+```

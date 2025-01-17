@@ -9,4 +9,5 @@ theme:
 nav:
   - Git Branch Planning: git-branch-planning.md
   - Daily Development Routine: daily-development-routine.md
+  - Removing Old Commits: removing-old-commits.md
   - Related Commands Summary: related-commands-summary.md

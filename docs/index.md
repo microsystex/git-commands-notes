@@ -4,8 +4,20 @@ Welcome to the Git Commands Notes documentation. This site provides comprehensiv
 
 ## Contents
 
-- [Git Branch Planning](git-branch-planning.md): Learn about different branching strategies and how to manage branches in a multi-phase project.
-- [Daily Development Routine](daily-development-routine.md): Follow the daily routines to ensure smooth development and integration.
-- [Related Commands Summary](related-commands-summary.md): Detailed explanations of various Git commands used in this documentation.
+### [Git Branch Planning](git-branch-planning.md)
+
+Learn about different branching strategies and how to manage branches in a multi-phase project.
+
+### [Daily Development Routine](daily-development-routine.md)
+
+Follow the daily routines to ensure smooth development and integration.
+
+### [Removing Old Commits](removing-old-commits.md)
+
+Learn how to remove commits older than six months.
+
+### [Related Commands Summary](related-commands-summary.md)
+
+Detailed explanations of various Git commands used in this documentation.
 
 Feel free to explore each section to get a better understanding of Git and how to use it efficiently in your projects.
